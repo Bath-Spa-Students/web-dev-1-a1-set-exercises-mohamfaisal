@@ -1,0 +1,47 @@
+body 
+{
+  background: grey url(image/background\ image.jpg);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-color: rgba(0, 0, 0, 0.1);
+  background-blend-mode: darken;
+}
+td 
+{
+  padding: 0 20px;
+}
+
+img
+{
+	width:450px;
+	height:600px;
+	border-radius:10%;
+	padding-bottom: 20px;
+
+}
+ul
+{
+	margin-left: 150px;
+	color: white;
+}
+table
+{
+	color: white;
+}
+dl
+{
+	margin-left: 150px;
+	color: white;
+	margin-right: 65px;
+}
+dt
+{
+	color:#ff9900;
+	margin-bottom: 5px;
+}
+.rp
+{
+	background-color: orange;
+}
