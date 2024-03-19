@@ -7,14 +7,16 @@ body {
   nav {
     background-color: #f01414;
     color: #fff;
-    display: flex;
-    justify-content: space-around;
+    display:flex;
+    justify-content: left;
     padding: 10px;
+    font-size: larger;
   }
   
   nav a {
     color: #fff;
-    text-decoration: none;
+    text-decoration: double;
+    
   }
   
   section {
@@ -33,3 +35,9 @@ body {
   .button:hover {
     background-color: #d90707;
   }
+
+h2 {
+  background-color: blue;
+  padding: 5px;
+  color: #fff;
+}
