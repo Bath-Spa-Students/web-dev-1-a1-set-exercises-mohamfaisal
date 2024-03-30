@@ -1,0 +1,15 @@
+h1 {
+    border : 2px solid;
+    padding-top: 50px;
+    margin-top: 100px;
+}
+
+#para {
+    width: 60%;
+    float: left;
+}
+
+#section {
+    width: 30%;
+    float : right;
+}
