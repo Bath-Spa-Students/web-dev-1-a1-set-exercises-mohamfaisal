@@ -1,0 +1,61 @@
+body {
+    font-family:'Times New Roman', Times, serif;
+    background-image:linear-gradient(purple,red,pink, white);
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+    text-shadow: 3px 2px 2px blue ;
+}
+
+.Marina {
+    margin-bottom: 55px;
+    margin-top: 55px;
+    width: 65%;
+    margin: auto;
+    align-content: center;
+}
+
+.Marina img:hover{
+    filter: grayscale()
+}
+
+.island{
+    margin-bottom: 55px;
+    margin-top: 55px;
+    width: 65%;
+    margin: auto;
+    align-content: center;
+}
+
+.island img:hover{
+    filter: blur(5px);
+}
+
+.Khalifa{
+    margin-bottom: 55px;
+    margin-top: 55px;
+    width: 65%;
+    margin: auto;
+    align-content: center;
+}
+
+.Khalifa{
+    overflow: hidden;
+    border-radius: 16px;
+}
+
+.Khalifa img{
+    object-fit: cover;
+    transition: transform 0.8s;
+    height: 100%;
+}
+
+.Khalifa:hover img {
+    transform: scale(1.5);
+}
