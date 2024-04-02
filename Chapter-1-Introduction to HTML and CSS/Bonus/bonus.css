@@ -99,3 +99,111 @@ html {
   background-color: #9fdcf4;
   color: black;
 }
+
+.Anchor{
+  display:block;
+  border: 3px solid black;
+  padding: 8px;
+  margin: 0.5em;
+  background-color: #9fdcf4;
+  color: black;
+}
+
+.form{
+  display:block;
+  border: 3px solid black;
+  padding: 8px;
+  margin: 0.5em;
+  background-color: #9fdcf4;
+  color: black;
+}
+
+.transition{
+  display:block;
+  border: 3px solid black;
+  padding: 5px;
+  margin: 0.5em;
+  background-color: #9fdcf4;
+  color: black;
+}
+
+.Font-Family{
+  display:block;
+  border: 3px solid black;
+  padding: 5px;
+  margin: 0.5em;
+  background-color: #9fdcf4;
+  color: black;
+}
+
+.Color{
+  display:block;
+  border: 3px solid black;
+  padding: 5px;
+  margin: 0.5em;
+  background-color: #9fdcf4;
+  color: black;
+}
+
+.background-color{
+  display:block;
+  border: 3px solid black;
+  padding: 5px;
+  margin: 0.5em;
+  background-color: #9fdcf4;
+  color: black;
+}
+
+.Padding{
+  display:block;
+  border: 3px solid black;
+  padding: 5px;
+  margin: 0.5em;
+  background-color: #9fdcf4;
+  color: black;
+}
+
+.Margin{
+  display:block;
+  border: 3px solid black;
+  padding: 5px;
+  margin: 0.5em;
+  background-color: #9fdcf4;
+  color: black;
+}
+
+.Font-size{
+  display:block;
+  border: 3px solid black;
+  padding: 5px;
+  margin: 0.5em;
+  background-color: #9fdcf4;
+  color: black;
+}
+
+.Border{
+  display:block;
+  border: 3px solid black;
+  padding: 5px;
+  margin: 0.5em;
+  background-color: #9fdcf4;
+  color: black;
+}
+
+.height-width{
+  display:block;
+  border: 3px solid black;
+  padding: 5px;
+  margin: 0.5em;
+  background-color: #9fdcf4;
+  color: black;
+}
+
+.display-flex{
+  display:block;
+  border: 3px solid black;
+  padding: 5px;
+  margin: 0.5em;
+  background-color: #9fdcf4;
+  color: black;
+}
