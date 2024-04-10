@@ -1,0 +1,52 @@
+body {    /*Changing the properties of the body/content*/
+/*Adding a background color to the page*/
+    background: linear-gradient(to bottom right, #0f0c29, #302b63, #24243e);
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    text-shadow:1px 2px 10px white;
+}
+
+.container{                                      /*Container with H1 elements*/
+    text-align: center;
+    margin-top: 15px;
+    color: white;
+}
+
+.Soundboard {                          /*Class for the Soundboard itself - contains all other classes */
+    display: flex;
+    padding: 20px;
+    gap: 15px;
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 5px 10px 15px rgba(0.5, 0, 0, 0.5);
+}
+
+.Sample {                             /*sample denoted with each audio samples */
+    background-color: black;
+    color: white;
+    padding: 20px;
+    border-radius: 0px;
+    cursor: pointer;
+    transition: background-color 0.4s ease;
+    text-align: center;
+    box-shadow: 3px 6px 8px rgba(0, 0, 0, 0.4);
+}
+
+.Sample:hover {            /*On hover effect - changes Background Color and Box Shadow*/
+    background-color: rgb(216, 12, 12);
+    box-shadow: 3px 6px 15px rgba(216, 12, 12, 0.7);
+}
+
+@keyframes pulse {          /*Animation of Sample Button when it is clicked*/
+    0% { box-shadow: 0 0 0 rgba(216, 12, 12, 0.4); }
+    50% { box-shadow: 0 0 20px rgba(216, 12, 12, 0.4); }
+    100% { box-shadow: 0 0 0 rgba(216, 12, 12, 0.4); }
+}
+
+.Sample:hover {      /*Adding an animation to the sample hover*/
+    animation: pulse 1s ease-in-out infinite;
+}
