@@ -50,3 +50,14 @@ h1{
 .Sample:hover {      /*Adding an animation to the sample hover*/
     animation: pulse 1s ease-in-out infinite;
 }
+
+footer{       /*adding a footer properties to the page*/
+    background-color: none;
+    color:beige;
+    bottom: 0;
+    padding: 5px;
+    text-align: center;
+    position:fixed;
+    font-size: 20px;
+    width: 100%;
+}
