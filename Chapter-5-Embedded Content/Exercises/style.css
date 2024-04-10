@@ -1,0 +1,17 @@
+body {
+    margin: auto;                      
+    background-color: rgb(63, 63, 202);     
+}
+
+.vedio-loop {
+    display: flex;         
+    justify-content: center;    
+    height: 600px;
+    width: 1250px;              
+    align-items: center;       
+}
+
+video {
+    width: auto;              
+    height: 600px;                
+}

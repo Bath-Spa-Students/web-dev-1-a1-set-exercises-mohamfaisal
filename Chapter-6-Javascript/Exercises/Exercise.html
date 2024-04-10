@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Petrol Calculator</title>
+    <link rel="stylesheet" href="style.css">  <!-- Link to CSS file -->
+</head>
+<body>
+    <div class="container">   <!--adding div and class for styling-->
+        <h1>ADNOC PETROL CALCULATOR</h1>
+
+        <form>
+            <label for="petrol-cost">Petrol per liter:</label>     <!--adding label for the petrol cost-->
+            <input type="number" id="petrol-cost" name="petrol-cost" value="1.72" step="0.01">  <!--giving a default value as "1.72" to petrol cost-->
+            <label for="liters-purchased">Liters purchased:</label>     <!--adding label for liters purchased by the customer-->
+            <input type="number" id="liters-purchased" name="liters-purchased" value="0">    <!--adding the sub total of the petrol cost with the liters purchased -->
+            <button type="button" id="calculate-btn">Calculate</button>  <!--creating a button for the above process to execute-->
+        </form>
+        <p id="total-cost"></p>
+    </div>
+
+    <section class="adnoc">
+        <img src="image/adnoc_logo_1-removebg-preview.png" alt="Adnoc Logo"/>    <!--adding an original petrol compaany based in UAE-->
+    </section>
+
+    <script src="index.js"></script>
+</body>
+</html>

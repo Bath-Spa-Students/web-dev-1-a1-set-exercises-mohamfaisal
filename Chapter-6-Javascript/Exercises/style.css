@@ -1,0 +1,71 @@
+body {
+    background-color: white;              /* Set the default background color */
+    font-family: Arial, sans-serif;
+    margin: 150px;
+    background-image:url('image/Adnoc’s-‘My-Station’-service-in-Abu-Dhabi-free-fuel-delivery-A-02-07-2-1024x640.jpg');  /* adding a background image*/
+    -webkit-background-size: cover;
+    -moz-background-size: cover;          
+    -o-background-size: cover;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.1);
+    background-blend-mode: darken;
+}
+
+.container {
+    max-width: 700px;
+    background-color: rgb(10, 10, 93);   /*  Set a specific background color for this container */
+    color: white;
+    margin: 0 auto;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 5px 10px 15px rgba(0, 0, 0, 0.5);
+}
+
+.adnoc{
+    width: 50px;      /*  Make the image smaller to fit in the div */
+    height: 80px;
+    position: absolute;
+    top: 20px;
+    right: 180px;
+}
+
+form {
+    display: flex;        /*  Display form elements side by side */
+    flex-direction: column;
+    gap: 10px;
+}
+
+label {
+    font-weight: bold;   /*  Bold text for labels */
+}
+
+input {
+    padding: 10px;        
+    border-radius: 5px;
+    border: 1px solid black;      /*   Add borders around input fields */
+}
+
+input:focus {         /*  Change outline color when an element is focused */
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+button {                /*   Style the submit button */
+    padding: 10px;       
+    border-radius: 5px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;   /*   Show a hand icon on hover */
+}
+
+button:hover {   /* changing the color of the hover effect*/
+    background-color: #0056b3;
+}
+
+#total-cost {      /*   Styling the total cost field */
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 20px;
+}
